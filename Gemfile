@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 source 'https://rubygems.org'
 
 # Rails version
@@ -75,3 +77,4 @@ gem 'aquadoc', :git => 'https://github.com/klavinslab/aquadoc'
 # These gems are not used in Aquarium but may be needed for protocols within
 # the DAMP lab.  Confirm that a gem is not used in a protocol before deleting it.
 gem 'google_drive'
+
