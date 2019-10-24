@@ -6,9 +6,9 @@ default: &default
   reconnect: true
   host: add host here
   port: 3306
-  database: aquariumV2
+  database: add dbname here
   pool: 100
-  username: add db username here
+  username: add username here
   password: "add password here"
 
 production:
@@ -17,9 +17,9 @@ production:
   reconnect: true
   host: add host here
   port: 3306
-  database: aquariumV2
+  database: add dbname here
   pool: 100
-  username: add db username here
+  username: add username here
   password: "add password here"
 
 # use the same name to avoid issues with switching env in docker
@@ -29,9 +29,9 @@ development:
   reconnect: true
   host: add host here
   port: 3306
-  database: aquariumV2
+  database: add dbname here
   pool: 100
-  username: add db username here
+  username: add username here
   password: "add password here"
 
 test:
@@ -40,7 +40,7 @@ test:
   reconnect: true
   host: add host here
   port: 3306
-  database: aquariumV2
+  database: add dbname here
   pool: 100
-  username: add db username here
+  username: add username here
   password: "add password here"

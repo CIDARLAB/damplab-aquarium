@@ -11,13 +11,13 @@ development:
 
     adapter: mysql2
     encoding: utf8
-    reconnect: false
-    host: your.mysqlerver.com
+    reconnect: true
+    host: add host here
     port: 3306
-    database: production
+    database: add db name here
     pool: 5
-    username: yourusername
-    password: "yourpassword"
+    username: add db username here
+    password: "add db pass here"
 
 test:
 
@@ -30,13 +30,13 @@ production:
 
   adapter: mysql2
   encoding: utf8
-  reconnect: false
-  host: your.mysqlerver.com
+  reconnect: true
+  host: add host here
   port: 3306
-  database: production
+  database: add db name here
   pool: 100
-  username: yourusername
-  password: "yourpassword"
+  username: add db username here
+  password: "add db pass here"
 
 rehearse:
 
@@ -53,10 +53,10 @@ rehearse:
   production_server: # Listed so that the rehearsal server can copy inventory db items from the production server
     adapter: mysql2
     encoding: utf8
-    reconnect: false
-    host: your.mysqlerver.com
+    reconnect: true
+    host: add host here
     port: 3306
-    database: production
+    database: add db name here
     pool: 5
-    username: yourusername
-    password: "yourpassword"
+    username: add db username here
+    password: "add db pass here"
