@@ -1,16 +1,20 @@
 ---
-name: Aquarium Bug
-about: Issues not specific to a protocol
-title: ''
-labels: bug
+name: Protocol Bug
+about: Issues related to a specific protocol
+title: "<CATEGORY><NAME OF PROTOCOL>"
+labels: protocol
 assignees: ''
 
 ---
 
-## Summary & Context
+<!--- Before submitting an issue, have you already tried the following? -->
+<!--- 1) If the protocol is inside a template, recreate the template -->
+<!--- 2) Duplicate the error by resubmitting the same protocol -->
+<!--- 3) The expected inventory are all present and have "items" associated -->
+
+## Context/Summary
 <!--- Write a succinct summary of what is broken -->
 <!--- Provide context - when did the protocol break, what changed in the lab that may have broken it -->
-<!--- How has this issue affected you? What are you trying to accomplish? -->
 <!--- The idea is that the person reading this issue does not have to come talk to you before debugging -->
 
 ## Expected Behavior
@@ -18,7 +22,7 @@ assignees: ''
 
 ## Current Behavior
 <!--- Tell us what happens instead of the expected behavior -->
-<!--- Include screenshots -->
+<!--- Include screenshots of the error-->
 
 ## Possible Solution
 <!--- Not obligatory, but suggest a fix/reason for the bug, -->
@@ -30,6 +34,3 @@ assignees: ''
 2.
 3.
 4.
-
-## Environment
-<!--- Browser [e.g. chrome, safari], others details if applicable -->
